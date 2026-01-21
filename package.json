@@ -1,0 +1,14 @@
+{
+  "name": "lucent-international-school-website",
+  "version": "1.0.0",
+  "description": "Static website with Node.js backend for admission enquiries",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8"
+  }
+}
+

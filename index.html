@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucent International School, Surwaniya - A modern, future-ready institution in Gopalganj, Bihar committed to delivering academic excellence with strong values and discipline.">
+    <title>Lucent International School, Surwaniya - Gopalganj, Bihar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Director Information Banner -->
+    <div class="director-banner">
+        <div class="container">
+            <div class="director-info">
+                <i class="fas fa-user-tie"></i>
+                <div class="director-details">
+                    <strong>School Director:</strong> <span class="director-name">Ashutosh Tiwari</span>
+                    <span class="director-qualification">B.A - English, B.Ed - English, Bihar STET Qualified</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Lucent International School</h1>
+                <p class="tagline">Surwaniya, Gopalganj | Excellence in Education</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="adminLoginNav" style="display: none;"><a href="#" onclick="showAdminLogin(); return false;">Admin</a></li>
+                <li id="adminLogoutNav" style="display: none;"><a href="#" onclick="adminLogout(); return false;">Logout</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Lucent International School</h1>
+            <p class="hero-subtitle">Surwaniya, Gopalganj</p>
+            <p class="hero-subtitle" style="margin-top: 0.5rem;">Nurturing Future Leaders with Excellence, Values & Discipline</p>
+            <div class="director-hero-info">
+                <div class="director-hero-photo">
+                    <img src="director.jpg" alt="School Director Ashutosh Tiwari">
+                </div>
+                <div class="director-hero-text">
+                    <p><i class="fas fa-user-tie"></i> <strong>School Director:</strong> Ashutosh Tiwari</p>
+                    <p class="director-qual-hero">B.A - English, B.Ed - English, Bihar STET Qualified</p>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Admission Enquiry</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section overview">
+        <div class="container">
+            <h2 class="section-title">Overview</h2>
+            <div class="overview-content">
+                <p class="lead-text">
+                    Lucent International School is a modern, future-ready institution committed to delivering academic excellence with strong values and discipline. The school blends rigorous academics with holistic development, ensuring that every child grows intellectually, emotionally, socially, and physically.
+                </p>
+                <p>
+                    With contemporary classrooms, advanced laboratories, rich library resources, and safe, child-friendly spaces, Lucent International School provides an environment where students are encouraged to think critically, explore creatively, and lead confidently. Rooted in Indian values and open to global perspectives, the school focuses on nurturing responsible, compassionate, and innovative young citizens.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Strong Academic Foundation</h3>
+                        <p>Structured, outcome-driven teaching with focus on conceptual clarity</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Holistic Education</h3>
+                        <p>Integrating academics, sports, arts, and life skills</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-building"></i>
+                        <h3>Modern Infrastructure</h3>
+                        <p>Supporting digital and experiential learning</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-star"></i>
+                        <h3>21st Century Skills</h3>
+                        <p>Emphasis on values, discipline, leadership, and innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <h2 class="section-title">What Parents & Students Say</h2>
+            <div class="reviews-container">
+                <div class="review-category">
+                    <h3 class="category-title"><i class="fas fa-users"></i> Parent Reviews</h3>
+                    <div class="reviews-grid">
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Lucent International School has been a turning point for my child. The teachers are patient, well-qualified, and truly invested in each student's progress. We have seen a remarkable improvement in confidence and communication skills."</p>
+                            <p class="review-author">– Mrs. Sharma, Parent of Class VI student</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The school maintains excellent discipline without being harsh. The environment is safe, positive, and supportive. Regular updates, PTMs, and open communication make us feel involved in our child's education."</p>
+                            <p class="review-author">– Mr. and Mrs. Verma, Parents of Class III student</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"From academics to sports and cultural activities, Lucent ensures balanced development. The smart classrooms and digital tools keep children engaged, and the teachers make learning enjoyable and meaningful."</p>
+                            <p class="review-author">– Mrs. Khan, Parent of Class VIII student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-category">
+                    <h3 class="category-title"><i class="fas fa-user-graduate"></i> Student Reviews</h3>
+                    <div class="reviews-grid">
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Our teachers explain concepts in a very simple way and use real-life examples. The science and computer labs are my favourite places because we get to do hands-on experiments."</p>
+                            <p class="review-author">– Arjun, Class VIII</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"There are so many activities – sports, music, art, and clubs. I have participated in debates and school events, which helped me overcome stage fear."</p>
+                            <p class="review-author">– Ananya, Class VII</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The school feels safe and friendly. Seniors and teachers are approachable, and there is always someone to guide us whenever we need help."</p>
+                            <p class="review-author">– Rohan, Class VIII</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-item">
+                    <h3><i class="fas fa-eye"></i> Vision</h3>
+                    <p>To nurture confident, compassionate, and competent individuals who excel in their chosen fields, uphold strong values, and contribute positively to society at national and global levels.</p>
+                </div>
+                <div class="about-item">
+                    <h3><i class="fas fa-bullseye"></i> Mission</h3>
+                    <ul>
+                        <li>To provide high-quality, student-centric education that inspires curiosity and a love for learning</li>
+                        <li>To integrate academic excellence with character building, life skills, and leadership development</li>
+                        <li>To create a safe, inclusive, and supportive environment where every child can discover and realize their potential</li>
+                        <li>To embrace innovation, technology, and global best practices while staying rooted in cultural values</li>
+                    </ul>
+                </div>
+                <div class="about-item">
+                    <h3><i class="fas fa-lightbulb"></i> Educational Philosophy</h3>
+                    <p>Lucent International School believes that every child is unique and capable of achieving excellence when given the right guidance and opportunities. The school follows a balanced approach that combines:</p>
+                    <ul>
+                        <li>Concept-based learning and strong fundamentals in all subjects</li>
+                        <li>Activity-based, experiential, and project-oriented teaching methods</li>
+                        <li>Continuous assessment to support improvement rather than only judge performance</li>
+                        <li>Value education, discipline, and life skills as integral parts of the curriculum</li>
+                    </ul>
+                </div>
+                <div class="about-item">
+                    <h3><i class="fas fa-handshake"></i> Commitment to Student Success</h3>
+                    <ul>
+                        <li>Personalized attention through a favourable teacher–student ratio</li>
+                        <li>Structured academic support, remedial classes, and enrichment programs</li>
+                        <li>Career guidance, counselling, and mentorship for higher classes</li>
+                        <li>Regular interaction with parents to align home and school efforts</li>
+                    </ul>
+                </div>
+                <div class="about-item">
+                    <h3><i class="fas fa-globe"></i> National and International Standards</h3>
+                    <p>Lucent International School aligns its curriculum with recognized national boards and incorporates global education standards and methodologies. The school continuously upgrades its teaching practices, assessments, and resources to prepare students for competitive exams, higher education, and future careers in an increasingly global world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Director's Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-about">
+                    <div class="portfolio-photo">
+                        <img src="director.jpg" alt="School Director Ashutosh Tiwari">
+                    </div>
+                    <h3>About Ashutosh Tiwari</h3>
+                    <p>
+                        Ashutosh Tiwari is the Director of Lucent International School, Surwaniya. With a strong academic
+                        foundation in English and professional training in education, he focuses on building a disciplined,
+                        value-driven learning environment for students from diverse backgrounds.
+                    </p>
+                    <p>
+                        Over the years, he has mentored numerous students, helping them develop clarity in concepts,
+                        confidence in communication, and character rooted in ethics and hard work.
+                    </p>
+                </div>
+                <div class="portfolio-details">
+                    <div class="portfolio-detail-row">
+                        <span class="label">Current Role</span>
+                        <span class="value">Director, Lucent International School</span>
+                    </div>
+                    <div class="portfolio-detail-row">
+                        <span class="label">Experience</span>
+                        <span class="value">Multiple years of teaching and academic leadership</span>
+                    </div>
+                    <div class="portfolio-detail-row">
+                        <span class="label">Education</span>
+                        <span class="value">B.A (English), B.Ed (English), Bihar STET Qualified</span>
+                    </div>
+                    <div class="portfolio-detail-row">
+                        <span class="label">Core Strengths</span>
+                        <span class="value">English language, classroom management, student mentoring, discipline</span>
+                    </div>
+                </div>
+            </div>
+            <div class="features-grid portfolio-skills">
+                <div class="feature-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>English Language Expertise</h3>
+                    <p>Designing clear, structured lessons that strengthen grammar, vocabulary, and communication.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Student Mentorship</h3>
+                    <p>Guiding students academically and personally to help them set and achieve goals.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Curriculum Planning</h3>
+                    <p>Aligning teaching plans with board requirements while encouraging practical learning.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Discipline & Values</h3>
+                    <p>Creating a balanced environment of discipline, respect, and encouragement.</p>
+                </div>
+            </div>
+            <div class="services-grid portfolio-projects">
+                <div class="service-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Lucent International School</h3>
+                    <p>Leading the school towards modern, value-based education with a focus on outcomes.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Academic Excellence Programs</h3>
+                    <p>Organising extra classes, doubt sessions, and test preparation support for students.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-child"></i>
+                    <h3>Holistic Development Initiatives</h3>
+                    <p>Encouraging participation in co-curricular activities to build confidence and leadership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Our Services & Facilities</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Smart Classrooms</h3>
+                    <p>Interactive digital boards, audio-visual content, and technology-enabled teaching</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Qualified & Experienced Faculty</h3>
+                    <p>Trained, subject-specialist teachers focused on conceptual clarity and values</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Digital Learning Tools</h3>
+                    <p>Learning apps, online resources, digital assignments, and e-assessments</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-futbol"></i>
+                    <h3>Sports & Extracurricular Programs</h3>
+                    <p>Structured sports coaching, clubs, arts, music, dance, drama, and literary activities</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bus"></i>
+                    <h3>Transportation Facilities</h3>
+                    <p>GPS-enabled, well-maintained school buses with trained drivers and attendants</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Counselling & Guidance</h3>
+                    <p>Academic, emotional, and career counselling; student well-being and life-skills programs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health & Safety</h3>
+                    <p>Basic medical facilities, regular health check-ups, and strict safety and security protocols</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Timings Section -->
+    <section id="location" class="section location">
+        <div class="container">
+            <h2 class="section-title">Location & Timings</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Complete Address</h3>
+                    <address>
+                        Lucent International School, Surwaniya<br>
+                        Hira Lal Tiwari More, Surwaniya<br>
+                        Village: Surwaniya<br>
+                        City: Gopalganj, State: Bihar<br>
+                        PIN Code: 841243
+                    </address>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.5!2d84.4!3d26.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDMwJzAwLjAiTiA4NMKwMjQnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-actions">
+                        <a href="https://maps.app.goo.gl/EmuFoQ7RiHsLgw5B8?g_st=ac" target="_blank" rel="noopener" class="btn btn-primary">
+                            Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+                <div class="timings-info">
+                    <h3><i class="fas fa-clock"></i> School Timings</h3>
+                    <div class="timing-card">
+                        <h4>School Hours</h4>
+                        <p><strong>Opening Time:</strong> 8:00 AM</p>
+                        <p><strong>Closing Time:</strong> 2:30 PM</p>
+                    </div>
+                    <div class="timing-card">
+                        <h4>Office Working Hours</h4>
+                        <p><strong>Monday to Friday:</strong> 8:00 AM to 4:00 PM</p>
+                        <p><strong>Saturday (working):</strong> 8:30 AM to 1:00 PM</p>
+                    </div>
+                    <div class="timing-card">
+                        <h4>Weekly Off Days</h4>
+                        <p><strong>Sunday:</strong> Weekly holiday</p>
+                        <p>Gazette holidays and special breaks as per the school calendar</p>
+                    </div>
+                    <div class="directions-info">
+                        <h4><i class="fas fa-route"></i> How to Reach</h4>
+                        <ul>
+                            <li>Accessible via main city roads with clear signboards leading to the campus</li>
+                            <li>Connected to key residential localities and nearby markets</li>
+                            <li>Well-connected by public transport, cab services, and school bus routes</li>
+                            <li>Drop-off and pick-up zones designed for smooth and safe movement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Enquiry</h2>
+            
+            <!-- WhatsApp Quick Contact Card -->
+            <div class="whatsapp-card">
+                <div class="whatsapp-card-content">
+                    <div class="whatsapp-icon-large">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="whatsapp-card-text">
+                        <h3>Chat with Us on WhatsApp</h3>
+                        <p>Get instant responses to your queries about admissions, academics, and more</p>
+                        <a href="https://wa.me/917654178670" target="_blank" class="whatsapp-btn-large">
+                            <i class="fab fa-whatsapp"></i> Chat Now: +91 7654178670
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>
+                                Hira Lal Tiwari More, Surwaniya<br>
+                                Gopalganj, Bihar - 841243<br>
+                                <a href="https://maps.app.goo.gl/EmuFoQ7RiHsLgw5B8?g_st=ac" target="_blank" rel="noopener" class="map-link">
+                                    Open in Google Maps
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917654178670" class="phone-link">+91 7654178670</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item whatsapp-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/917654178670" target="_blank" class="whatsapp-link">+91 7654178670</a></p>
+                            <p class="whatsapp-hint">Click to chat on WhatsApp</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:360lucentinternationalschool@gmail.com" class="email-link">360lucentinternationalschool@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>Visit our official website for detailed information on admissions, academics, facilities, events, and policies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Admission Enquiry Form</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="class">Class Interested In</label>
+                            <select id="class" name="class">
+                                <option value="">Select Class</option>
+                                <option value="nursery">Nursery</option>
+                                <option value="kg">KG</option>
+                                <option value="1">Class I</option>
+                                <option value="2">Class II</option>
+                                <option value="3">Class III</option>
+                                <option value="4">Class IV</option>
+                                <option value="5">Class V</option>
+                                <option value="6">Class VI</option>
+                                <option value="7">Class VII</option>
+                                <option value="8">Class VIII</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="section photos">
+        <div class="container">
+            <h2 class="section-title">School Gallery</h2>
+            <p class="photos-description">Share your memories and view photos from Lucent International School</p>
+            
+            <!-- Upload Form (Visible to all users) -->
+            <div class="upload-section">
+                <h3><i class="fas fa-upload"></i> Upload Photo</h3>
+                <form class="upload-form" id="uploadForm">
+                    <div class="upload-input-group">
+                        <input type="file" id="photoInput" accept="image/*" required>
+                        <input type="text" id="photoCaption" placeholder="Add a caption (optional)" maxlength="100">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-upload"></i> Upload Photo
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Admin Login Button -->
+            <div class="admin-controls" id="adminControls" style="text-align: center; margin: 20px 0;">
+                <button class="btn btn-secondary" onclick="showAdminLogin()" id="adminLoginBtn">
+                    <i class="fas fa-user-shield"></i> Admin Login
+                </button>
+            </div>
+
+            <!-- Photos Gallery -->
+            <div class="photos-gallery" id="photosGallery">
+                <p class="no-photos" id="noPhotos">No photos yet. Be the first to upload one!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Login Modal -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeAdminModal()">&times;</span>
+            <h2><i class="fas fa-user-shield"></i> Admin Login</h2>
+            <form id="adminLoginForm">
+                <div class="form-group">
+                    <label for="adminUsername">Username</label>
+                    <input type="text" id="adminUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="adminPassword">Password</label>
+                    <input type="password" id="adminPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <p class="admin-hint">Default: admin / admin123</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Share Section -->
+    <section class="section share-section">
+        <div class="container">
+            <h2 class="section-title">Share Our School Profile</h2>
+            <p class="share-description">Help spread the word about Lucent International School</p>
+            <div class="share-buttons">
+                <button class="share-btn whatsapp" onclick="shareOnWhatsApp()">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </button>
+                <button class="share-btn facebook" onclick="shareOnFacebook()">
+                    <i class="fab fa-facebook"></i> Facebook
+                </button>
+                <button class="share-btn email" onclick="shareViaEmail()">
+                    <i class="fas fa-envelope"></i> Email
+                </button>
+                <button class="share-btn copy" onclick="copyLink()">
+                    <i class="fas fa-link"></i> Copy Link
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lucent International School</h3>
+                    <p>Excellence in Education with Values & Discipline</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#contact">Admission Enquiry</a></li>
+                        <li><a href="#services">Facilities</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#location">School Timings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>
+                        Hira Lal Tiwari More, Surwaniya<br>
+                        Gopalganj, Bihar - 841243<br>
+                        <strong>Phone:</strong> <a href="tel:+917654178670" style="color: rgba(255, 255, 255, 0.8); text-decoration: none;">+91 7654178670</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/917654178670" target="_blank" style="color: #25D366; text-decoration: none;">+91 7654178670</a><br>
+                        <strong>Timings:</strong> 8:00 AM - 2:30 PM
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lucent International School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917654178670" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
